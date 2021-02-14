@@ -5,7 +5,7 @@ Application accepts a range of integer values specified by start and stop value 
 Execute maven command line to package the application: mvn install
 
 Run the following commands start the application in docker container:
-docker build -t spring-boot:1.0 .
+docker build -t spring-boot:1.0 . <br/>
 docker run -d -p 8080:8080 -t spring-boot:1.0
 
 # Command Line usage
