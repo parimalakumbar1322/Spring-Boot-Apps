@@ -10,11 +10,11 @@ import lombok.Data;
 public class Fizzbuzz {
 	
 	@JsonProperty("in")
-	int in;
+	long in;
 	
 	@JsonProperty("result")
 	String result;
-	public Fizzbuzz(int in, String result) {
+	public Fizzbuzz(long in, String result) {
 		super();
 		this.in = in;
 		this.result = result;
