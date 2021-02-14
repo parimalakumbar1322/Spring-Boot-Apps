@@ -9,3 +9,7 @@ Spring boot application is dockerized. Run the following commands to build and s
 Execute maven command line to package the application: mvn install
 docker build -t spring-boot:1.0 .
 docker run -d -p 8080:8080 -t spring-boot:1.0
+
+# Api Documentation
+Swagger documentation can be accessed from the following url:
+http://localhost:8080/swagger-ui.html#
